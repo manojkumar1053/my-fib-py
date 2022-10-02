@@ -7,14 +7,14 @@ with open("README.md", "r") as fh:
     long_description = fh.read()
 
 
-with open(str(pathlib.Path(__file__).parent.absolute()) +
-          "/flitton_fib_py/version.py", "r") as fh:
-    version = fh.read().split("=")[1].replace("'", "")
+# with open(str(pathlib.Path(__file__).parent.absolute()) +
+#           "/flitton_fib_py/version.py", "r") as fh:
+#     version = fh.read().split("=")[1].replace("'", "")
 
 
 setup(
     name="my-fib-py",
-    version=version,
+    version="0.1.1",
     author="Manoj Test",
     author_email="Manj Test",
     description="Calculates a Fibonacci number",

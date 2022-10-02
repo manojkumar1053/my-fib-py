@@ -111,6 +111,7 @@ env.bak/
 venv.bak/
 venv-pypi-test/
 venv*
+venv2
 
 # Spyder project settings
 .spyderproject
